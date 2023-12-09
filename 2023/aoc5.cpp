@@ -41,10 +41,7 @@ vector<long long> findCandidates(vector<string>s){
 				range.push_back(stoll(t));
 			}
 			rangeArr.push_back(range);
-//			tempT.push_back(range[1]-1);
 			tempT.push_back(range[1]);
-//			tempT.push_back(range[1]+range[2]-1);
-//			tempT.push_back(range[1]+range[2]);
 			i--;
 		}
 		for(int j=0;j<temp.size();j++)
